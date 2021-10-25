@@ -78,32 +78,51 @@
             <script src="questao04.js"></script>
 
         </div> -->
-        <div>
+        <!-- <div>
             <h3>Questão 05 </h3>
             <p>
                 Faça um programa que verifique se uma letra digitada é vogal ou consoante.
             </p>
             <input type="text" placeholder="Sua Letra" id="letra">
-            <button type="button" id="letraAdicional">Adicionar</button>
-            <p>Resultado: </p>
+            <button type="button"  onclick="javascript:letras();">Adicionar</button>
+            <p id="letraAdicional"></p>
             <script src="questao05.js"></script>
 
-        </div>
+        </div> -->
 
-        <!--  <div>
+          <div>
             <h3>Questão 06 </h3>
             <p>
                 Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve clacular
                 a média alcançada por aluno e apresentar:
             </p>
-            <input type="number" name="temperatura" placeholder="..." id="qt06">
-            <button type="button" id="adicionar">Adicionar</button>
-            <p>Resultado: </p>
-            <script src="#"></script>
+            <form class="" method="post">
+                <label>Aluno 01</label>
+                <br><br>
+                <label>Nota 01</label>
+                <input type="number" id="studentFirstGrade01" value="">
+                <br><br>
+                <label>Nota 02</label>
+                <input type="number" id="studentSecondGrade01" value="" >
+                <br><br><br>
+                <label>Aluno 02</label>
+                <br><br>
+                <label>Nota 01</label>
+                <input type="number" id="studentFirstGrade02" value="" >
+                <br><br>
+                <label>Nota 02</label>
+                <input type="number" id="studentSecondtGrade02" value="" >
+                <br><br>
+                <button type="button"  onclick="javascript:boletim();">Calcular media</button>
+                <br><br>
+                <label>Resultado: </label>
+                <input type="text" id="txtResultado" value="">
+            </form>
+            <script src="questao06.js"></script>
 
         </div>
 
-        <div>
+       <!-- <div>
             <h3>Questão 07 </h3>
             <p>
                 Faça um programa que imprima “Bom dia”, “Boa tarde” ou “Boa noite” dependendo da hora
