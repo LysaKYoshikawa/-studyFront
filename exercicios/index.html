@@ -9,7 +9,7 @@
             <h1>Exercicios de teste de performece</h1>
 
         </div>
-        <!-- <div>
+        <div>
             <p>Questão 01 - Faça um programa que peça as 4 notas bimestrais e mostre a média.</p>
 
         <form class="" method="post">
@@ -27,58 +27,56 @@
             <br><br>
             <input type="button" onclick="javascript:calculo();" name="name" value="Enviar">
             <br><br>
-            <label>Resultado: </label>
-            <input type="text" id="txtResultado" value="">
+            <p id="txtResultado">Resultado</p>
         </form>
         <script type="text/javascript" src="questao01.js"></script>
         <p>---------------</p>
-        </div> -->
+        </div>
 
         
 
-        <!-- <div>
+        <div>
             <h3>Questão 02 </h3>
             <p>
                 Faça um programa que peça a temperatura em graus Fahrenheit, transforme e mostre a
                 temperatura em graus Celsius.
             </p>
             <input type="number" name="temperatura" placeholder="Sua temperatura" id="tempF">
-            <button type="button" id="adicionar" onclick="javascript:temperatura();">Adicionar</button>
-            <label>Resultado: </label>
-            <input type="text" id="tempResultado" value="">
+            <button type="button" id="adicionar" onclick="javascript:temperatura();">Converter</button>
+            <p id="tempResultado">Resultado: </p>
             <script src="questao02.js"></script>
 
-        </div> -->
-        <!-- <div>
+        </div>
+        <div>
             <h3>Questão 03 </h3>
             <p>
                 Faça um programa que peça dois números e imprima o maior deles.
             </p>
             <label>Primeiro Numero</label>
-            <input type="number" id="fristNumber" value="">
+            <input type="number" id="fristNumber" value="" placeholder="Informe seu numero">
             <br><br>
             <label>Segundo Numero</label>
-            <input type="number" id="secondNumber" value="">
+            <input type="number" id="secondNumber" value="" placeholder="Informe seu numero">
             <br><br>
-            <button type="button" id="adicionar" onclick="javascript:maiorValor();">Adicionar</button>
+            <button type="button" id="adicionar" onclick="javascript:maiorValor();">Resultado</button>
             <p id="result"></p>
             <script src="questao03.js"></script>
 
-        </div> -->
-         <!-- <div>
+        </div>
+        <div>
             <h3>Questão 04 </h3>
             <p>
                 Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
             </p>
             <label>Numero</label>
-            <input type="number" id="requestedNumber" value="" max="10">
+            <input type="number" id="requestedNumber" value="" placeholder="Informe seu numero">
             <br><br>
-            <button type="button" id="resultNumber" onclick="javascript:numberPosNeg();">Adicionar</button>
+            <button type="button" id="resultNumber" onclick="javascript:numberPosNeg();">Resultado</button>
             <p id="resultQuestionfour"></p>
             <script src="questao04.js"></script>
 
-        </div> -->
-        <!-- <div>
+        </div>
+        <div>
             <h3>Questão 05 </h3>
             <p>
                 Faça um programa que verifique se uma letra digitada é vogal ou consoante.
@@ -88,7 +86,7 @@
             <p id="letraAdicional"></p>
             <script src="questao05.js"></script>
 
-        </div> -->
+        </div>
 
           <div>
             <h3>Questão 06 </h3>
@@ -97,42 +95,37 @@
                 a média alcançada por aluno e apresentar:
             </p>
             <form class="" method="post">
-                <label>Aluno 01</label>
+                <label>Aluno</label>
                 <br><br>
                 <label>Nota 01</label>
                 <input type="number" id="studentFirstGrade01" value="">
                 <br><br>
                 <label>Nota 02</label>
                 <input type="number" id="studentSecondGrade01" value="" >
-                <br><br><br>
-                <label>Aluno 02</label>
                 <br><br>
-                <label>Nota 01</label>
-                <input type="number" id="studentFirstGrade02" value="" >
+                <button type="button" onclick="javascript:boletim();">Calcular media</button>
                 <br><br>
-                <label>Nota 02</label>
-                <input type="number" id="studentSecondtGrade02" value="" >
-                <br><br>
-                <button type="button"  onclick="javascript:boletim();">Calcular media</button>
-                <br><br>
-                <label>Resultado: </label>
-                <p id="resultMedia"></p>
-                <input type="text"  value="">
+                <p id="resultMedia">Resultado: </p>
             </form>
             <script src="questao06.js"></script>
 
         </div>
 
-       <!-- <div>
+        <div>
             <h3>Questão 07 </h3>
             <p>
                 Faça um programa que imprima “Bom dia”, “Boa tarde” ou “Boa noite” dependendo da hora
                 do dia. Dica: use a classe Date..
             </p>
-            <input type="number" name="temperatura" placeholder="..." id="qt07">
-            <button type="button" id="adicionar">Adicionar</button>
-            <p>Resultado: </p>
-            <script src="#"></script>
+            <label>Horas : </label>
+            <input type="text" name="temperatura" placeholder="..." id="hours" >
+            <br><br>
+            <label>Min : </label>
+            <input type="text" name="temperatura" placeholder="..." id="minutes" >
+            <br><br>
+            <button type="button" onclick="javascript:hours();">Calcular</button>
+            <p id="resultHours">Resultado: </p>
+            <script src="questao07.js"></script>
 
         </div>
 
@@ -143,12 +136,24 @@
                 valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é:
                 “Equilátero”, “Isósceles” ou “Escaleno”.
             </p>
-            <input type="number" name="temperatura" placeholder="..." id="qt08">
-            <button type="button" id="adicionar">Adicionar</button>
-            <p>Resultado: </p>
-            <script src="#"></script>
+            <form class="" method="post">
+                <label>Lados do Triangulo</label>
+                <br><br>
+                <label>Lado A</label>
+                <input type="number" id="ladoA" value="">
+                <br><br>
+                <label>Lado B</label>
+                <input type="number" id="ladoB" value="" >
+                <br><br>
+                <label>Lado C</label>
+                <input type="number" id="ladoC" value="" >
+                <br><br>
+                <button type="button" onclick="javascript:tipoTriangulo();">resultado</button>
+                <p id="resulTriangle"></p>
+            </form>
+            <script src="questao08.js"></script>
 
-        </div> -->
+        </div>
         
     </body>
 </html>

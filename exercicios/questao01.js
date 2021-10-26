@@ -9,7 +9,8 @@ function calculo () {
 
     let resultado = parseFloat((nota01 + nota02 + nota03 + nota04) / 4);
 
-    document.getElementById('txtResultado').setAttribute("value", resultado);
+    //document.getElementById('txtResultado').setAttribute('value', resultado);
+    document.getElementById('txtResultado').innerHTML = "Resultado: A media é  " + resultado;
 
 
 }
