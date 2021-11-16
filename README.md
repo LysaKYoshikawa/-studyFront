@@ -19,7 +19,7 @@ Esse repositorio visa a pratica de exercicios e algoritmos de programação com 
 - [x] Responder questões 1 - 8
 - [ ] Responder questões 9 - 20
 - [ ] Responder questões 21 - 30
-- [ ] Desafio da dos numeros
+- [x] Desafio da dos numeros
 
 
 # Tecnologias Ultilizadas
