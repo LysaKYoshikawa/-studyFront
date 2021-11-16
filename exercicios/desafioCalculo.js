@@ -5,7 +5,14 @@ function desafioCalculo () {
 
     parOuImparFunction(number);
 
-    cube(number)
+    cube(number);
+
+    calculoFatorial(number)
+
+    calculoPrime(number)
+
+    calculoRaiz(number)
+    
 }
 
 function parOuImparFunction(number) {
@@ -34,4 +41,33 @@ function cube(number) {
     let resultCube = Math.pow(number,exponente);
     document.getElementById("cube").innerHTML = "Resultado: O cubo é " + resultCube;
     
+}
+
+function calculoFatorial(number){
+    let fatorial = 1
+    for(let i=1; i<=number; i++){
+        fatorial *= i;
+    }
+    document.getElementById("fatorial").innerHTML = "Resultado: O fatorial é  " + fatorial;
+}
+
+function calculoRaiz(number){
+    let resultRaiz = document.getElementById("raiz");
+    resultRaiz.innerText = Math.sqrt(number)
+}
+
+function calculoPrime(number){
+    let resultPrimo = document.getElementById("prime")
+    let divisors = 0
+
+    for (let count=1; count<=number; count++){
+        if(number % count == 0){
+            divisors++;
+        }
+    }
+    if(divisors == 2){
+        resultPrimo.innerText = "É um numero Primo"
+    }else{
+        resultPrimo.innerText = "Não é numero Primo"
+    }
 }
