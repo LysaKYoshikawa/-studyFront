@@ -1,0 +1,32 @@
+Com o VUE você não precisa atualizar sempre ele é pratico porque atualiza de forma automatica
+
+Sempre que quiser trazer as informações em html tem que inserir a tag v-html.
+
+O Vue.js utiliza uma sintaxe de templates baseada e HTML permitindo que se 
+incule declarativamenteo DOM renderizado aos dados da instancia Vue.
+ 
+ Tamplates definem os elementos da camada View do componente Vue.
+ 
+ AS diretiva são são usadas para dizer o que gostariamos que acontecesse 
+ e como o vue deve ser comportar com os dados fornecidos.
+
+Diretivas de Interpolação
+v-once é a diretiva que pode ser feito alterações 
+porem não sera alterada as msg anteriores.
+Ex. pode-se usar a v-once e informar a msg "oi", depois que você alterar para "ola"
+as futuras msg sera como "ola" a antiga fica como "oi"
+
+
+v-html : para passar uma atributo para o html ou puxar uma formatação de css precisa usar 
+a diretiva v-html. então toda vezque eu quiser acessar uma propriedade html irei usar o v-html
+
+Chaves duplas não podem ser usadas em atributos html. Para isso utilize a diretiva v-bind
+v-bind serve para fazer a ligação entre algo que esta na instancia do vue e um atributo 
+da sua tag dentro do template
+v-bind pode ser usado com atributo boleano.
+uma abreviação de do v-bind é o :
+
+v-if é a diretiva que passa se um valor é verdadeiro para o html
+v-else é outra diretiva para algo não for verdadeiro.
+
+v-text vai atualizar o textCotnent do elemento.

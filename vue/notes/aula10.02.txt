@@ -1,0 +1,27 @@
+
+Quando o servidor é iniciado, o arquivo index.html é disponibilizado no browser. O arquivo
+index.html possui o elemento DOM raiz (#app).
+
+O componente main.js sera chamado, riando a instancia vue e renderizando-a no elementoDOM raiz
+
+Ciclo de vida, quando uma aplicação Vue é inicializada, uma serie de eventos é executada 
+para que todos os elementos sejam renderizado corretamente
+
+Vue realiza alterações no DOM atraves da construção de um DOM Vitural para mantes o controle
+das mudanças  que ele precisa aplicar no DOM real.
+
+DOM Virtual é uma abstração mais leve criado pelo vue para representar arvore do DOM 
+do brower. O Vue realiza as alterações necessarias de HTML direto no DOM Virtual. Isso torna 
+as aplicação mais leve.
+
+renderização de lista com v-for. A diretica key não é obrigatoria, mas como vue-cli, força 
+que seja definida a diretiva.
+
+two-way Data Binding com v-model: A diretiva v-model torna mais facil a ligação dos dados 
+promove a reatividade nas entradas do formulario.
+Basicamente, tow-way data binding é o termo dado a reatividade dos elementos na sua interface.
+
+A diretiva V-model torna a interligação de mão dupla(two-way binding) entre a caixa de texto
+e o estado da aplicaçãi algo muito simples.
+
+v-show, tambem é uma renderização condicional
