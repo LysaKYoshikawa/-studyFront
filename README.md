@@ -1,4 +1,4 @@
-#  studyFundamentals
+#  studyFront
 
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
@@ -8,7 +8,7 @@
 
   #  :rocket: Sobre o Projeto
 
-Esse repositorio visa a pratica de exercicios e algoritmos de programação com base na linguagem JavaScript.
+Esse repositorio visa o estudo e desenvolvimento de conhecimentos de Front-end.
 
 ### Features :feet:
 
@@ -22,11 +22,12 @@ Esse repositorio visa a pratica de exercicios e algoritmos de programação com 
 - [x] Desafio da dos numeros
 
 
-# Tecnologias Ultilizadas
+# Tecnologias 
 
 - HTML / CSS
 - BootStrap
 - JavaScript
+- vue.js
 
 # Como executar o projeto
 
