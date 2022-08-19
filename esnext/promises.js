@@ -4,6 +4,7 @@ function falarDepoisDe(segundos, frase) {
   return new Promise ((resolve, reject) => {
     setTimeout(() =>{
       resolve(frase)
+      // resolve aceita apenas 1 parametro
     }, segundos * 1000)
   })
 }
